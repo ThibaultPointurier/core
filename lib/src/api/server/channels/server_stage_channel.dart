@@ -2,7 +2,7 @@ import 'package:mineral/src/api/common/channel_methods.dart';
 import 'package:mineral/src/api/common/channel_permission_overwrite.dart';
 import 'package:mineral/src/api/common/channel_properties.dart';
 import 'package:mineral/src/api/common/embed/message_embed.dart';
-import 'package:mineral/src/api/common/managers/message_manager.dart';
+import 'package:mineral/src/api/server/managers/message_manager.dart';
 import 'package:mineral/src/api/common/polls/poll.dart';
 import 'package:mineral/src/api/common/snowflake.dart';
 import 'package:mineral/src/api/common/types/channel_type.dart';
