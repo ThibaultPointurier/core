@@ -66,6 +66,9 @@ final class CacheKey {
   String poll(Snowflake messageId, {String? uid}) =>
       'messages/$messageId/polls/${uid ?? Uuid().v4()}';
 
+  String attachment(Snowflake serverId, Snowflake messageId, String attachmentId) =>
+      '${message(serverId, messageId)}/attachments/$attachmentId';
+
   String sticker(Snowflake serverId, Snowflake stickerId) =>
       '${server(serverId)}/stickers/$stickerId';
 
